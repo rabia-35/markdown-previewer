@@ -1,0 +1,41 @@
+.App{
+  background: url(/public/images/cover.jpeg) no-repeat ;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 3%;
+
+}
+.title{
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 4px 4px 10px  #750e1b;
+  color: #251344 !important;
+  margin-bottom: 2%;
+  margin-left: 30%;
+}
+.bi{
+  box-shadow: 2px 2px 4px #cc2138;
+  color: #251344;
+}
+.textarea{
+  background-color: transparent;
+  min-height: 400px !important;
+  max-width: 350px;
+  margin-bottom: 4%;
+  border: none;
+  box-shadow: 10px 10px 20px #7126f1;
+}
+.previewer{
+  min-height: 400px !important;
+  max-width: 350px;
+  margin-bottom: 4%;
+  box-shadow: 10px 10px 20px #cc2138;
+  color: aliceblue;
+}
+.badge{
+  min-width: 35%;
+  min-height: 6%;
+  margin-bottom: 2%;
+  line-height: normal;
+  font-family: "Great Vibes", cursive;
+}
