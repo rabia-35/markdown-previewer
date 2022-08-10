@@ -26,11 +26,13 @@
   box-shadow: 10px 10px 20px #7126f1;
 }
 .previewer{
-  min-height: 400px !important;
+  height: 400px !important;
   max-width: 350px;
   margin-bottom: 4%;
   box-shadow: 10px 10px 20px #cc2138;
   color: aliceblue;
+  overflow: auto;
+
 }
 .badge{
   min-width: 35%;
@@ -38,4 +40,16 @@
   margin-bottom: 2%;
   line-height: normal;
   font-family: "Great Vibes", cursive;
+}
+
+@media (max-width: 576px) {
+  .badge{
+    background-color: #3e37ff !important;
+  }
+  .previewer{
+    box-shadow: 10px 10px 20px #7126f1;
+  }
+  .title{
+    margin: 8% auto;
+  }
 }
