@@ -1,5 +1,6 @@
 # Markdown Previewer
 * React
+* Context API
 * React-Bootstrap
 * Bootstrap-Icon
 * Marked
